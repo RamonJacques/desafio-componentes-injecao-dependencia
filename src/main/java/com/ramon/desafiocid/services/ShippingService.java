@@ -13,6 +13,6 @@ public class ShippingService {
 		} else if (order.getBasic() >= 200) {
 			return 0;
 		} else
-			return 10;
+			return 12;
 	}
 }
